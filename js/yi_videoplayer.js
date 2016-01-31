@@ -14,7 +14,7 @@ $('document').ready(function(){
 		var root = $('[data-yi-id=' + data_yi_id + ']');
 		var video = root.children('video');
 		var duration = video.get(0).duration;
-		var volume = 0.005; // Default volume 0.5%
+		var volume = 0.1; // Default volume 10%
 		var isPaused = true;
 		var isMuted = false;
 		var isFullscreen = false;
